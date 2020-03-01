@@ -6,8 +6,7 @@ permalink:  why_data_science
 ---
 
 
-
-When I graduated, one of my goals was to find a job related to my courses. After working as a statistician and data analyst for a while, my goal changed. I was more excited to develop my career, improve my skills, and keep my knowledge up-to-date. For the last few years, I have worked with different types of data, datasets, software, prediction problems, etc. .  During each project I learned a new way to clean, predict, forecast, enrich, and visualize data.
+When I graduated, one of my goals was to find a job related to my courses. After working as a statistician and data analyst for a while, my goal changed. I was more excited to develop my career, improve my skills, and keep my knowledge up-to-date. For the last few years, I have worked with different types of data, datasets, software, prediction problems, etc. . During each project I learned a new way to clean, predict, forecast, enrich, and visualize data.
 
 Once, I was working on a project, and needed to find a way to classify our new customers according to their behavior. At first glance, this may seem simple, but there were multiple challenges. First, most of the explanatory variables were categorical and were missing information. Second, my depended variable was nominal(categorical). Thirdly, none of numerical variables and errors had Gaussian distribution. Thus, the liner regression model wouldn’t be a good choice for prediction.
 
