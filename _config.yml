@@ -1,11 +1,11 @@
 # Site settings
 author: Nastaran
-title: My great blog!
+title: My journey for becoming a Data Scientist 
 header-img: img/home-bg.png
 email: nazemian86@gmail.com
 copyright_name: Nastaran
 description: > # this means to ignore newlines until "baseurl:"
-  My blog
+  Data Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  na-na15
