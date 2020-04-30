@@ -39,18 +39,17 @@ y = np.array([2, 1, 4, 5, 8, 12, 18, 25, 13, 9])
 
 Pearson = scipy.stats.pearsonr(x, y)
 Pearson
-```
-Output:
-```
+
+>>Output:
 (0.717608638601781, 0.019458339068724698)
 ```
 
 Input:
 ```
 Spearman = scipy.stats.spearmanr(x, y)
-```
-Output:
-```
+
+>>Output:
+
 SpearmanrResult(correlation=0.8303030303030302, pvalue=0.0029402270232795065)
 ```
 
@@ -61,18 +60,18 @@ You can also use dot notation for the Spearman.
 Input:
 ```
 scipy.stats.spearmanr(x, y).correlation
-```
-Output:
-```
-0.8303030303030302
+
+>>Output:
+
+1.0.8303030303030302
 ```
 Input:
 ```
 Spearman[0]
-```
-Output:
-```
-0.8303030303030302
+
+>>Output:
+
+1.0.8303030303030302
 ```
 If you want to get the Pearson correlation coefficient and p-value at the same time, you can use the following code. 
 
@@ -80,17 +79,16 @@ Input:
 ```
 r, p = scipy.stats.pearsonr(x, y)
 p
-```
-Output:
-```
+
+>>Output:
+
+>>p-value
 0.019458339068724698
-```
-Input:
-```
+ Input
 r
-```
-Output:
-```
+>>Output:
+ 
+ Pearson correlation coefficien
 0.717608638601781
 ```
 **Correlation in  Pandas:**
@@ -103,17 +101,17 @@ import pands ass pd
 x = pd.Series(range(0, 10))
 y= pd.Series([2 ,1, 4, 5, 8, 12, 18, 9, 15, 13])
 x.corr(y)
-```
-Output:
-```
+
+>>Output:
+
 0.8477537124567661
-```
+
 Input:
-```
+
 x.corr(y, method = 'spearman')
-```
-Output:
-```
+
+>>Output:
+
 0.8787878787878788
 ```
 Sources:
