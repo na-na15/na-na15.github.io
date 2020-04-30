@@ -11,8 +11,8 @@ One of the useful statistical tools for finding the relationship between two or 
 Before starting to look at linear and ranking correlations, let’s talk about different type of the data. In statistics, we have three types of data 
 
 * Numerical Data: This data is measurable, and four main operations can be performed on them. Numerical data can be broken down into discrete and continuous data. [\[1\]](https://www.dummies.com/education/math/statistics/types-of-statistical-data-numerical-categorical-and-ordinal/)
- * Discrete Data: Represents items that can be counted. Like the number of heads in 100-coin flips.
- * Continuous Data: Represent items that can be measured. Like temperature.
+                1.  Discrete Data: Represents items that can be counted. Like the number of heads in 100-coin flips.
+                2.  Continuous Data: Represent items that can be measured. Like temperature.
 *	Categorical Data: Represents characteristics; like gender. 
 *	Ordinal Data: Represents the order; like movie ranking.
 
