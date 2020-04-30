@@ -28,9 +28,8 @@ This correlation shows the relationship between two numerical variables. The Pea
 This correlation indicates the relationship between the two ordinal variables, in other words, the nonparametric corresponding to the Pearson correlation coefficient. If the orderings are similar, then the correlation is strong, positive, and high. However, if the orderings are close to reversed, then the correlation is strong, negative, and low. In other words, rank correlation is concerned only with the order of values, not with the particular values from the dataset. Similar to Pearson correlation, Spearman correlation coefficients are in the [-1,1] range. When both variables are monotonically increasing a function, the correlation coefficient would be 1, while when they are monotonically decreasing the function, the correlation coefficient would be -1. When the correlation is 0, they do no monotonically affect the function. [\[2\]](https://realpython.com/numpy-scipy-pandas-correlation-python/#linear-regression-scipy-implementation)
 
 **SciPy Correlation Implementation:**
-
-Input:
 ```
+>>Input:
 import numpy as np
 import scipy.stats
 
@@ -43,75 +42,66 @@ Pearson
 >>Output:
 (0.717608638601781, 0.019458339068724698)
 ```
-
-Input:
 ```
+>>Input:
 Spearman = scipy.stats.spearmanr(x, y)
 
->>Output:
-
+>>>Output:
 SpearmanrResult(correlation=0.8303030303030302, pvalue=0.0029402270232795065)
 ```
 
 
 Both functions’ outputs are touples and have two elements. The first one is correlation coeeficient and the second one is the p-value. P-value is astatistical method which is used in tetsting a hypothesis.
 You can also use dot notation for the Spearman.
-
-Input:
 ```
+>>Input:
 scipy.stats.spearmanr(x, y).correlation
 
->>Output:
-
+>>>Output:
 1.0.8303030303030302
 ```
-Input:
 ```
+>>Input:
 Spearman[0]
 
->>Output:
-
+>>>Output:
 1.0.8303030303030302
 ```
 If you want to get the Pearson correlation coefficient and p-value at the same time, you can use the following code. 
 
-Input:
 ```
+>>Input:
 r, p = scipy.stats.pearsonr(x, y)
 p
 
->>Output:
-
+>>>Output:
 >>p-value
 0.019458339068724698
- Input
-r
->>Output:
  
- Pearson correlation coefficien
+ >>Input
+r
+>>>Output:
+>> Pearson correlation coefficien
 0.717608638601781
 ```
 **Correlation in  Pandas:**
 For calculating statistics, Pandas is more convenient than SciPy. It offers statistical methods for both Series and DataFrames. For example, given two Series, with the same number of items, you can call .corr() on one of them with the other as the first argument:
 
-Input:
 ```
+>>Input:
 import pands ass pd
 
 x = pd.Series(range(0, 10))
 y= pd.Series([2 ,1, 4, 5, 8, 12, 18, 9, 15, 13])
 x.corr(y)
 
->>Output:
-
+>>>Output:
 0.8477537124567661
 
-Input:
-
+>>Input:
 x.corr(y, method = 'spearman')
 
->>Output:
-
+>>>Output:
 0.8787878787878788
 ```
 Sources:
