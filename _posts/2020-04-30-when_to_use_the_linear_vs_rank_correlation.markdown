@@ -10,14 +10,11 @@ When to use the linear vs. rank correlation:
 One of the useful statistical tools for finding the relationship between two or more variables is correlation coefficient. Depending on the type of data, different correlation coefficients can be used. Here, I am going to talk about linear and rank correlations.
 Before starting to look at linear and ranking correlations, let’s talk about different type of the data. In statistics, we have three types of data 
 
-•	Numerical Data: This data is measurable, and four main operations can be performed on them. Numerical data can be broken down into discrete and continuous data. [\[1\]](https://www.dummies.com/education/math/statistics/types-of-statistical-data-numerical-categorical-and-ordinal/)
-
-1. Discrete Data: Represents items that can be counted. Like the number of heads in 100-coin flips.
-2. Continuous Data: Represent items that can be measured. Like temperature.
-
-•	Categorical Data: Represents characteristics; like gender. 
-
-•	Ordinal Data: Represents the order; like movie ranking.
+* Numerical Data: This data is measurable, and four main operations can be performed on them. Numerical data can be broken down into discrete and continuous data. [\[1\]](https://www.dummies.com/education/math/statistics/types-of-statistical-data-numerical-categorical-and-ordinal/)
+ * Discrete Data: Represents items that can be counted. Like the number of heads in 100-coin flips.
+ * Continuous Data: Represent items that can be measured. Like temperature.
+*	Categorical Data: Represents characteristics; like gender. 
+*	Ordinal Data: Represents the order; like movie ranking.
 
 Linear correlation coefficient or Pearson Correlation Coefficient
 This correlation shows the relationship between two numerical variables. The Pearson correlation coefficient changes between -1 through 1.  When Pearson correlation coefficient equals to one, it means that the two variables have a strong direct linear relation with each other. If it is -1, it shows that the two variables have strong invers linear relation. if it is 0, it shows that there is no linear relation between these two variables. 
