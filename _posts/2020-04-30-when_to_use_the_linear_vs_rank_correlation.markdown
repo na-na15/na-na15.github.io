@@ -78,7 +78,7 @@ p
 >>p-value
 0.019458339068724698
  
- >>Input
+>>Input:
 r
 >>>Output:
 >> Pearson correlation coefficien
