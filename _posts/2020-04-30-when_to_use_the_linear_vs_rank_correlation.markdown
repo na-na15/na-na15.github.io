@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "When to use the linear vs. rank correlation:"
-date:       2020-04-30 16:52:03 +0000
+date:       2020-04-30 12:52:04 -0400
 permalink:  when_to_use_the_linear_vs_rank_correlation
 ---
 
