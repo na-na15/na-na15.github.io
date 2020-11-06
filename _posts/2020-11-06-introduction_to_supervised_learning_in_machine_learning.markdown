@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Introduction to Supervised Learning in Machine Learning:"
-date:       2020-11-06 09:13:27 +0000
+date:       2020-11-06 04:13:28 -0500
 permalink:  introduction_to_supervised_learning_in_machine_learning
 ---
 
