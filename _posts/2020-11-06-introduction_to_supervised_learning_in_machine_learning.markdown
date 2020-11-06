@@ -82,7 +82,7 @@ Under sampling the majority class or oversampling the minority class in the trai
  *	 Random Under sampling.
  *	 SMOTE Oversampling.
 
-![](http://https://https://www.researchgate.net/profile/Zbigniew_Leonowicz/publication/321543275/figure/fig2/AS:649660200910856@1531902470662/Types-of-Machine-Learning-Algorithm.png)
+![](https://www.researchgate.net/profile/Zbigniew_Leonowicz/publication/321543275/figure/fig2/AS:649660200910856@1531902470662/Types-of-Machine-Learning-Algorithm.png)
 
 
 
