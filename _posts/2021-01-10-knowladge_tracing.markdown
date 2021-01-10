@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " Knowladge Tracing "
-date:       2021-01-10 21:09:26 +0000
+date:       2021-01-10 16:09:27 -0500
 permalink:  knowladge_tracing
 ---
 
