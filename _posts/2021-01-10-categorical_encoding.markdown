@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Categorical Encoding"
-date:       2021-01-10 07:19:15 +0000
+date:       2021-01-10 02:19:16 -0500
 permalink:  categorical_encoding
 ---
 
