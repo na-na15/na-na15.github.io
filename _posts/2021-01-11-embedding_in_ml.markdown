@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Embedding in ML:"
-date:       2021-01-11 22:00:25 +0000
+date:       2021-01-11 17:00:26 -0500
 permalink:  embedding_in_ml
 ---
 
