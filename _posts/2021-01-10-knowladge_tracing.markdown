@@ -12,3 +12,11 @@ In the traditional education systems normally teachers or instructors monitor an
 
 There is a new Transformer_based model for knowledge tracing, that I am going to talk about here. 
 SAINT(Separated Self-AttentIve Neural Knowledge Tracing) has an encoder_decoder structure. For having a better understanding of encoder_decoder structure let’s look at an example. Imagen we have two interpreters. One of them knows the French and the other one knows German, and  both of them are  familiar with a secret language. So for translating a sentence from French to German we should first translate the sentence into a secret language, and then translate it from secret language into German.  The action of translating the French into the secret language is called encoding and the action of translating the secret language into Germany is called decoding.  Now we have an idea what is the encoding and decoding. So the overall of encoder-decoder (sequence to sequence) is as shown below.
+
+![](https://miro.medium.com/max/1250/1*zq1G3mPSuy-KoMlBldohww.png)
+
+In the SAINT model,  the exercise sequences and response sequence  are separated then they are  applied  to encoder and decoder, respectively, which causes SAINT to capture  the complex relations among exercises and responses through deep self-attentive computations.
+
+
+![](https://d3i71xaburhd42.cloudfront.net/255f0fe65f5592659c285a1ecb733dec57aada23/2-Figure2-1.png)
+
