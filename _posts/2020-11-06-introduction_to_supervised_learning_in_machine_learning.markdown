@@ -7,11 +7,11 @@ permalink:  introduction_to_supervised_learning_in_machine_learning
 
 
 
-When I started learning Machine Learning, I was confusing, especially when I want to use them.  there are many algorithms, techniques, and methods which are useful for different type of the dataset. How should I use them? So, I decided to put everything in order. First, let’s talk about what exactly ML does.
+When I started learning Machine Learning, I was found it confusing, especially when I want to use the many algorithms, techniques, and methods which are useful for different types of the datasets. How should I use them? So, I decided to put everything in order. First, let’s talk about what exactly ML does.
 
 **What is Machine Learning?**
 
- Machine learning (ML) is the study of computer algorithms that improve automatically through experience. ML is a set of algorithms that classify or predict new data based on information obtained from training set. In other words, we train the machine with our sample data then the machine classified the new data based on the information gained. 
+ Machine learning (ML) is the study of computer algorithms that improve automatically through experience. ML is a set of algorithms that classify or predict new data based on information obtained from a training set. In other words, we train the machine with our sample data then the machine classifies the new data based on the information gained. 
  
 There are 4 types of the machine learning algorithms.
 
@@ -25,7 +25,7 @@ In this post I am going to talk about supervised learning and different types of
 The Supervised works based on the input and output variables. In Supervised learning we use the algorithm to learn the mapping function from the input to the output variables. This algorithm has a target variable which is to be predicted from a given set of other independent variables.  Supervised Learning is divided in two group based on the target variables. 
 
 * **Regression:** The target variable is continuing.
-The goal in the regression is to predict the target value. There many types of the regression, in below are the names of some of them.
+The goal in the regression is to predict the target value. There many types of the regression, in the list below are the names of some of them.
 
  1. Linear Regression
  1. Multilinear Regression
@@ -45,7 +45,7 @@ Classification is a predictive modeling problem where a class label is predicted
    *	 Support Vector Machine
    *	 Naive Bayes
   
-  2 .Multi Classification: It refers to those classification tasks that the target variable has more than two class labels. In below some of the popular algorithms are coming.
+  2 .Multi Classification: It refers to those classification tasks that the target variable has more than two class labels. In the list below some of the popular algorithms are coming.
  
    *	 K-Nearest Neighbors
    *	 Decision Trees
@@ -77,7 +77,7 @@ Classification is a predictive modeling problem where a class label is predicted
   *	Cost-sensitive Decision Trees.
   *	Cost-sensitive Support Vector Machines.
  
-Under sampling the majority class or oversampling the minority class in the training data are two ways that are used to change the composition of samples. Here, example of specialized techniques for under sampling and oversampling.
+Under sampling the majority class or oversampling the minority class in the training data are two ways that are used to change the composition of samples. Here, Listed below, are examples of specialized techniques for under sampling and oversampling.
 
  *	 Random Under sampling.
  *	 SMOTE Oversampling.
