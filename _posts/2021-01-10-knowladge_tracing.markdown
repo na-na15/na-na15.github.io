@@ -1,12 +1,12 @@
 ---
 layout: post
-title:      " Knowladge Tracing "
+title:      " Knowledge Tracing "
 date:       2021-01-10 16:09:27 -0500
 permalink:  knowladge_tracing
 ---
 
 
-In this blog post I am going to talk about how we can create a model to track a student’s knowledge. Before I start to talk about the model, let’s briefly look at what is knowledge tracing and why it is important and how it can help students or any person who wants to learn new things. 
+In this blog post I am going to talk about how we can create a model to track a student’s knowledge. Before I start to talk about the model, let’s briefly look at what is knowledge tracing, why it is important, and how it can help students or any person who wants to learn new things. 
 
 In the traditional education systems normally teachers or instructors monitor and assess student’s knowledge based on their skills and abilities. In case students need more help or practice, their teachers would assist them. Imagining the situation that each student can trace her/his knowledge. In other words, the knowledge has been separated in a different level of skills, and the sequences of learning activities help leaning progress. Now, each student can obtain requirement skills based on her/his knowledge and abilities before moving to the next complex topic. In this way, students just spend their time to improve their weakness and get more attendance, engagement and individualized attention. Therefore, in modifying what student’s need in their next steps for learning, it is necessary to track, measure, and predict student’s changing knowledge, state, thereby personalizing the design. For having the more effective automated tutoring systems the student’s knowledge state should be modeled which is called knowledge tracing and replace the traditional ways that instructors use to assess the students’ performance with sequence of formative and summative learning activities. In knowledge tracing, machine learning algorithms help us to model student performance which has a high educational impact on automated tutoring systems.
 
