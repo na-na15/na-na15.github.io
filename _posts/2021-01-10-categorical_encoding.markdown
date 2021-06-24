@@ -41,11 +41,11 @@ df_train_transformed = encoder.fit_transform(train_df)
 ### One Hot Encoding:
 
 When the categorical features don’t have any order (nominal), we use the One_HotEncoding. 
-In One_Hot Encoding each categorical column is splitted to many columns depending on the number of categories present in the column. Each column is mapped with 0 or 1s. Normally 1 represents  an action that happened and 0 represents the action that did not happen. For having a better understanding let’s look at an example.
+In One_Hot Encoding each categorical column is split to many columns depending on the number of categories present in the column. Each column is mapped with 0 or 1s. Normally 1 represents  an action that happened and 0 represents the action that did not happen. For a better understanding, let’s look at an example.
 
 ![](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/08/Screenshot-from-2020-08-12-17-16-03-850x322.png)
 
-As you see in  the second table we have 5 columns that each of them represent of the categories(here the name of the animals) in the Animal columns.  Now for each category that is present, we have 1 in the column of that category and 0 for the others. Let’s look at how we can implement the second table
+As you see in  the second table we have 5 columns. Each of them represent the categories (here the name of the animals) in the Animal columns.  Now for each category that is present, we have 1 in the column of that category and 0 for the others. Let’s look at how we can implement the second table
 
 ```
 >>Input
