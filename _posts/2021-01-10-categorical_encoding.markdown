@@ -6,7 +6,7 @@ permalink:  categorical_encoding
 ---
 
 
-Normally our data set is a combination of the numerical and categorical variables or columns. Since machines just can understand the numerical variables, how we can use the categorical variables in our models. For solving this problem, we should convert the categorical variables to the numbers. This process is called categorical encoding. There are several categorical encoding techniques. Here I am going to briefly talk about which Encoding techniques are appropriate when we have Ordinal  variables or nominal variables.  
+Normally our data set is a combination of the numerical and categorical variables or columns. Since machines can only understand the numerical variables, we need to find a way to use the categorical variables in our models. For solving this problem, we should convert the categorical variables to the numbers. This process is called categorical encoding. There are several categorical encoding techniques. Here I am going to briefly talk about which Encoding techniques are appropriate when we have Ordinal  variables or nominal variables.  
 
 ### Ordinal Encoding or Label Encoding:
 
