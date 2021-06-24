@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "HeatMap & Correlogram:"
-date:       2021-01-09 08:15:55 +0000
+date:       2021-01-09 03:15:56 -0500
 permalink:  heatmap_and_correlogram
 ---
 
 
 ###  Introduction :
-In this post I am going to briefly talk about correlograms.  Correlograms are a convenient  way to show the relation between numeric variables. Using the different shades of colors in diagrams help users to have better understanding of the relation among the variables. Before I start to talk about correlograms, let’s talk about Heatmap. Correlogram is a variant of the heatmap that replaces each of the variables on the two axes with a list of numeric variables in the dataset. [\[1\]](https://chartio.com/learn/charts/heatmap-complete-guide/)
+In this post I am going to briefly talk about correlograms.  Correlograms are a convenient  way to show the relation between numeric variables. Using the different shades of colors in diagrams helps users to have a better understanding of the relation among the variables. Before I start to talk about correlograms, let’s talk about Heatmap. Correlogram is a variant of the heatmap that replaces each of the variables on the two axes with a list of numeric variables in the dataset. [\[1\]](https://chartio.com/learn/charts/heatmap-complete-guide/)
 
 ### What is Heatmap? 
 Aheatmap is a 2_dimensional graph which represents values for a variable across two axis variables as a grid and colored each square. In other words, it is like a colorful data frame. It is useful to display  a general view of numerical data.[\[3\]](https://blog.quantinsti.com/creating-heatmap-using-python-seaborn/#:~:text=A%20heatmap%20is%20a%20two,Annotated%20Heatmap)
